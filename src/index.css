@@ -1,0 +1,97 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+input[type="text"]#search-input {
+  background-image: url(../public/assets/search-logo.png);
+  background-repeat: no-repeat;
+  text-indent: 16px;
+  outline: 0;
+  border-width: 0 0 2px;
+  border-color: black;
+  font-size: .75rem;
+  width: 12.5rem;
+}
+
+.first-section {
+  background-color: gainsboro;
+  padding: .5rem 0;
+  margin: 0;
+}
+
+.first-section ul li {
+  height: 1.5rem;
+  display: flex;
+  align-items: center;
+  font-size: 10px;
+  font-weight: 700;
+}
+.first-section ul li:not(:last-child) {
+  border-right: 1px solid black;
+}
+
+.third-section {
+  border-top: 1px solid black;
+  background: white;
+}
+
+.third-section ul li .nav-link{
+  font-size: 12px;
+  font-weight: 700;
+  color: black;
+}
+
+.orderinfo-results {
+  list-style: none;
+}
+
+.btn-subscribe {
+  width: 250px;
+  background: #fdc000;
+  height: 48px;
+  border: none;
+  border-radius: 0;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+}
+
+.tyc {
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  max-width: 19rem;
+}
+
+.country .col {
+  padding-left: 0;
+}
+.country span {
+  padding: 0;
+}
+
+.img-bandera {
+  width: 20px;
+  height: 20px;
+}
+
+.img-payments {
+  width: 1.5rem;
+}
+
+.btn-whatsapp {
+  position: fixed;
+  bottom: 1rem;
+  right: 1rem;
+}
